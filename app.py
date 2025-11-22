@@ -8,8 +8,9 @@ try:
     hours = float(hours)
     weekly_hours = hours * 7
 #display response
-print(f"You are on track to study {weekly_hours} hours this week.")
+    print(f"You are on track to study {weekly_hours} hours this week.")
 
 #run if the user entered invalid number
 except ValueError:
     print("Please enter a valid number.")
+    
